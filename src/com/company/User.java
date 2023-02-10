@@ -1,6 +1,6 @@
 package com.company;
 
-public class User {
+public class User implements Administrator,Book_supplier,Librarian,Reader{
     private String name;
     private String status;
     private final int maxStatus = 4;
