@@ -2,8 +2,8 @@ package com.company;
 
 public interface BookApplication {
 
-    static void bookApplication(User user){
-        System.out.println("Поступила новая заявка на книгу!");
+    static void bookApplication(Librarian librarian, Supplier supplier, Book book){
+
     }
 
 }

@@ -2,7 +2,9 @@ package com.company;
 
 public abstract class User {
     private String name;
-    private String status;
+    //private String status;
+
+
     //private final int maxStatus = 4;
    // private String[] statuses = new String[maxStatus];
 
@@ -18,13 +20,13 @@ public abstract class User {
 //    public User (){
 //    }
 //
-//    public String getName(){
-//        return name;
-//    }
-//
-//    public void setName(String name){
-//        this.name = name;
-//    }
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
 //
 //    public String getStatus() {
 //        return status;
